@@ -1,0 +1,57 @@
+.box{
+   display:flex;
+   flex-wrap :wrap; 
+}
+
+.box :hover{
+    opacity: 1;
+    background-color: rgb(26, 119, 119);
+    color:white;
+
+}
+
+tr{
+    background-color: rgba(56,4,40,.9);
+    color:white;
+    padding:10px;
+    margin:10px;
+    width: 300px;
+    line-height: 10.5px;
+}
+.pre{
+    font-size: 20px;
+}
+
+
+.btn{
+    
+    background-color: green;
+    margin:10px;
+    height:50px;
+    width: 130px;
+    color:white;
+    font-weight: bolder;
+    border :10px solid rgb(30, 78, 78);
+    font-size:20px;
+}
+.btn:hover{
+    background-color: red;
+    color:black;
+    border :10px solid rgb(30, 78, 78);
+    transform: scale(1.2);
+}
+
+.btn-2{
+    color:white;
+    font-weight: bolder;
+    font-size: 150px;
+    border : 20px solid rgb(30, 78, 78);
+    background-color:  green;
+    margin:10px;
+    width: 275px;
+}
+.btn-2:hover {
+    color:black;
+    background-color: red;    
+
+}

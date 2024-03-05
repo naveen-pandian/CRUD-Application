@@ -1,0 +1,48 @@
+.Ubox{
+ 
+    font-weight: bolder;
+    font-size:20px;
+    text-align: center;
+    background-color:  rgba(56,4,40,.9);
+    width:500px;
+    line-height: 10.5px;
+    color:white;
+
+}
+.Ubox-out{
+    display: grid;
+    place-items: center;
+}
+
+.in{
+    font-weight: bolder;
+    font-size: 20px;
+    border:10px solid black;
+    background-color: black;
+    color:yellow;
+}
+.in:focus{
+    outline-style:solid;
+    outline-color: yellow;
+    color:aqua;
+}
+.title1{
+    color:Pink;
+}
+
+.Ubtn{
+    background-color: green;
+    margin:10px;
+    height:50px;
+    width: 130px;
+    color:white;
+    font-weight: bolder;
+    border :10px solid rgb(30, 78, 78);
+    font-size:20px;
+}
+.Ubtn:hover{
+    border :10px solid pink;
+    background-color: red;
+    transform: scale(1.2);
+
+}
